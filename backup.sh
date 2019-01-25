@@ -1,10 +1,10 @@
 #! /bin/sh
 
 # Credentials to run database backup
-DATABASE_USERNAME="root"
-DATABASE_PASSWORD="pineapple"
-DATABASE_NAME="test"
-REMOTE_URL="http://localhost:8080/api/v1/backup"
+DATABASE_USERNAME=""
+DATABASE_PASSWORD=""
+DATABASE_NAME=""
+REMOTE_URL=""
 
 echo "Starting backup"
 echo "Please wait while backup is run.."
