@@ -33,6 +33,8 @@ if [ $? -eq 0 ]
         exit
 fi
 
+echo "Transmitting file over network"
+
 # Transmitting file over network
 curl -v -F backup=@backup.tar.gz $REMOTE_URL
 
